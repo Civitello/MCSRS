@@ -1,0 +1,8 @@
+[Unit]
+Description=Virtual Distributed Ethernet
+
+[Service]
+ExecStart=/var/minecraft/mcreset.sh
+
+[Install]
+WantedBy=multi-user.target
