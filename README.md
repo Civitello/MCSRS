@@ -7,9 +7,9 @@ This combined with by the minute or second billing and the ability to launch as 
 
 ##### Compliance with speedrun.com rules:
 This project has not yet been evaluated by speedrun.com staff or volunteers. Until that happens you will be using this project at your own risk. However, I have thoroughly reviewed the rules and discussed this project with other speedrunners, I am confident that this project will be approved. This project can currently only do the following:
-* Starts the Minecraft Server.
-* Monitors the Minecraft server to see if it stops.
-* Renames the world folder.
+* Start the Minecraft Server.
+* Monitor the Minecraft server to see if it stops.
+* Rename the world folder.
 
 ###### Future Compliance:
 Future features of this project **will not** perform any calculations on coordinates (like converting between nether and overworld or calculating stronghold positions). All such calculations will be performed by runners. The ONLY commands or alterations to Minecraft files planned for this project are the `/say` command and renaming the `/world` folder. There are plans for reading the `latest.log` file for commands from users to do things like manually add items to the achievement tracker and coordinates to the map website. These will not be added without further investigation into compliance.
