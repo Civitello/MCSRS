@@ -1,6 +1,6 @@
 SendMode Event
 CNT:=0
-
+~^c::ARR:=[],CNT:=0
 !3::
   If !ARR.Count()
     ARR:=StrSplit(Clipboard,"`n")
