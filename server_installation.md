@@ -82,13 +82,13 @@ sudo chown minecraft.minecraft -R /var/minecraft/
 
 Download and install services:
 cd /etc/systemd/system
-sudo wget https://github.com/PhoneticFailure/MCSRS/blob/main/mcreset.service
-sudo wget https://github.com/PhoneticFailure/MCSRS/blob/main/minecraft.service
+sudo wget https://github.com/Civitello/MCSRS/blob/main/mcreset.service
+sudo wget https://github.com/Civitello/MCSRS/blob/main/minecraft.service
 
 Download and set up script:
 cd /var/minecraft
 
-https://github.com/PhoneticFailure/MCSRS/blob/main/mcreset.sh
+https://github.com/Civitello/MCSRS/blob/main/mcreset.sh
 
 sudo chmod +x mcreset.sh
 
