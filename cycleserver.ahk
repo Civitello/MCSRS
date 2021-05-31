@@ -15,6 +15,6 @@ SendMode Event
   Send {Enter}
   Sleep 400
   SetKeyDelay 70
-  Send {Tab 3}{Enter}{Tab}^a^v{Enter}{Tab}{Enter}
+  Send {Tab 3}{Enter}{Tab}^a^v{Enter}
   SetKeyDelay 0
 Return
