@@ -20,6 +20,10 @@ I am not an expert, my skills and knowledge in the relevant areas are limited, t
 ##### Contributions:
 I would love help improving this project, I am looking for people who can help with reviewing my code for errors (I am inexperienced), and with implementing the planned features.
 
+##### Sibling Projects:
+https://github.com/andpenguin/AA-Coop-Tracker
+AA Coop Tracker
+
 ##### Some planned future features:
 * Advancement tracking website (This website will be hosted on the same machine as the Minecraft server, it will read the JSON files in the advancements folder and produce checklists based on their contents, it will need to be able to use the Mojang API to look up usernames of participants. 
 * **User** generated map
