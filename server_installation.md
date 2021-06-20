@@ -82,13 +82,29 @@ sudo chown minecraft.minecraft -R /var/minecraft/
 
 Download and install services:
 cd /etc/systemd/system
-sudo wget https://github.com/Civitello/MCSRS/blob/main/mcreset.service
-sudo wget https://github.com/Civitello/MCSRS/blob/main/minecraft.service
+sudo nano mcreset.service
+Paste in the contents of this file https://github.com/Civitello/MCSRS/blob/main/mcreset.service
+Save the file:
+ctrl+o
+ENTER
+ctrl+x
 
-Download and set up script:
+sudo nano minecraft.service
+Paste in the contents of this file  https://github.com/Civitello/MCSRS/blob/main/minecraft.service
+Save the file:
+ctrl+o
+ENTER
+ctrl+x
+
+Create and set up script:
 cd /var/minecraft
 
-https://github.com/Civitello/MCSRS/blob/main/mcreset.sh
+sudo nano mcreset.sh
+Paste in the contents of this file https://github.com/Civitello/MCSRS/blob/main/mcreset.sh
+Save the file:
+ctrl+o
+ENTER
+ctrl+x
 
 sudo chmod +x mcreset.sh
 
