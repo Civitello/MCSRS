@@ -1,5 +1,5 @@
 [Unit]
-Description=Virtual Distributed Ethernet
+Description=Minecraft Reset
 
 [Service]
 ExecStart=/var/minecraft/mcreset.sh
