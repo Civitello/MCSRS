@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo nano systemctl start mcreset01
 sudo nano systemctl start mcreset02
 sudo nano systemctl start mcreset03
