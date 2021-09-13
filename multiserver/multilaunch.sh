@@ -9,3 +9,8 @@ sudo systemctl start mcreset07
 sudo systemctl start mcreset08
 sudo systemctl start mcreset09
 sudo systemctl start mcreset10
+sudo systemctl start mcreset11
+sudo systemctl start mcreset12
+sudo systemctl start mcreset13
+sudo systemctl start mcreset14
+sudo systemctl start mcreset15
