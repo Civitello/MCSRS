@@ -1,5 +1,5 @@
 [Unit]
-Description=Minecraft Reset
+Description=Minecraft Backup
 
 [Service]
 ExecStart=/var/minecraft/backup.sh
