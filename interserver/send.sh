@@ -12,6 +12,5 @@ mcrcon -H 127.0.0.1 -P 25575 -p strong-password stop
 #send world folder
 scp -o StrictHostKeyChecking=no /var/minecraft/minecraft/world/. ubuntu@$varaddress:/media/ramdisk/minecraft/world/.
 #start server
-ssh systemctl start minecraft
+ssh -o StrictHostKeyChecking=no -t "sudo systemctl start minecraft"
 #announce success
-ssh -o StrictHostKeyChecking=no "sudo systemctl start minecraft"
