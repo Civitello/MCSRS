@@ -1,0 +1,14 @@
+#generate and save keys
+ssh-keygen -t rsa -N "" -f /home/ubuntu/.ssh/id_rsa
+#go to key directory
+cd ~/.ssh
+#change permission of private key file
+chmod 600 id_rsa
+#rename authorized_keys for editing
+mv authorized_keys authorized_keys_temp
+#create a file with the keys from both authorized_keys_temp and id_rsa.pub and save it as authorized keys
+cat authorized_keys_temp id_rsa.pub > authorized_keys
+#change permission of authorized_keys
+chmod 600 authorized_keys
+#remove temporary and unneeded file
+rm authorized_keys_temp
