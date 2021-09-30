@@ -11,7 +11,7 @@ done
 #prevent server from restarting on stop
 sudo systemctl stop mcreset
 #stop and save server
-mcrcon -H 127.0.0.1 -P 25575 -p allblack stop
+mcrcon -H 127.0.0.1 -P 25575 -p password stop
 #wait until "Thread RCON Listener stopped" appears in latest.log
 while [ -z "$serverfinished" ]
 do
