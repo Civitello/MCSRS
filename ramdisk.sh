@@ -6,4 +6,4 @@ cp -R /var/minecraft/unused/. /var/minecraft/minecraft
 #Start minecraft and resetting
 systemctl start mcreset.service
 #Start backup service
-systemctl backup.service
+systemctl start backup.service
