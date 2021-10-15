@@ -12,3 +12,4 @@ cat authorized_keys_temp id_rsa.pub > authorized_keys
 chmod 600 authorized_keys
 #remove temporary and unneeded file
 rm authorized_keys_temp
+#copy the key from id_rsa as needed
