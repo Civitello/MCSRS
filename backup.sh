@@ -1,6 +1,6 @@
 #!/bin/bash
 #turn off autosave to prevent conflicts.
-mcrcon -H 127.0.0.1 -P 25575 -p strong-password save-off
+mcrcon -H 127.0.0.1 -P 25575 -p PASSWORD save-off
 #backup loop, should switch to rsync
 while true
 do
