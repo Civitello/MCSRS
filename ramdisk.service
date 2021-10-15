@@ -1,5 +1,5 @@
 [Unit]
-Description=Minecraft Reset
+Description=Minecraft Ramdisk
 
 [Service]
 ExecStart=/var/minecraft/ramdisk.sh
