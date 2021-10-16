@@ -24,7 +24,7 @@ sudo mv /var/minecraft/Tracker1.16/minecraft/world/ /home/ubuntu/world/
 #send world folder
 scp -r -o StrictHostKeyChecking=no /home/ubuntu/world ubuntu@$address:/home/ubuntu/world
 #move world folder to minecraft folder
-ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo mv  /home/ubuntu/world/ /var/minecraft/Tracker1.16/minecraft/world/"
+ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo mv  /home/ubuntu/world/ /var/minecraft/Tracker1.16/unused/world/"
 #fix ownership of minecraft directory
 ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo chown minecraft.minecraft -R /var/minecraft/"
 #start server
