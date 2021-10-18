@@ -7,3 +7,5 @@ sudo cp -R /var/minecraft/Tracker1.16/unused/. /var/minecraft/Tracker1.16/minecr
 sudo systemctl start minecraft.service
 #Start backup service
 sudo systemctl start backup.service
+#start crash recovery service
+sudo systemctl start crash.service
