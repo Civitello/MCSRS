@@ -28,4 +28,4 @@ ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo mv  /home/ubuntu/world/
 #fix ownership of minecraft directory
 ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo chown minecraft.minecraft -R /var/minecraft/"
 #start server
-ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo systemctl start minecraft"
+ssh -o StrictHostKeyChecking=no -t ubuntu@$address "sudo systemctl start ramdisk"
